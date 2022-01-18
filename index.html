@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>iSOLATION DiSORDER</title>
+
+    <style>
+      .topnav{
+        position:relative;
+        background-color:black;
+        overflow:hidden;
+        border-bottom:3px solid #608534;
+      }
+
+      .topnav a{
+        float:left;
+        color:white;
+        text-align:center;
+        padding:30px 20px;
+        text-decoration:none;
+        font-size: 17px;
+        font-style: bolder;
+      }
+
+      .topnav a:hover {
+       font-style: italic;
+       color: #608534;
+      }
+
+      .topnav-centered a {
+       float: none;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+      }
+
+      .mainpage{
+        text-align:center;
+        margin:40px;
+        position: relative;
+      }
+
+      .overlay {
+       position: absolute;
+       left:50%;
+       transform:translatex(-50%);
+       bottom: 0;
+       background: rgb(0, 0, 0);
+       background: rgba(0, 0, 0, 0.5); /* Black see-through */
+       color: #f1f1f1;
+       width: 30%;
+       transition: .5s ease;
+       opacity:0;
+       color: white;
+       font-size: 20px;
+       padding: 20px;
+      }
+
+      .mainpage:hover .overlay {
+       opacity: 1;
+      }
+
+      .overlay a{
+        text-decoration:none;
+        color:white;
+      }
+
+      .grid{
+        margin:30px;
+        text-align:center;
+      }
+
+      .grid img{
+        padding:40px;
+      }
+
+      .grid2{
+        margin:30px;
+        text-align:center;
+      }
+
+      .grid2 img{
+        padding:40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topnav">
+      <div class="topnav-centered">
+        <a href="index.html" class="active"><img src="id.jpg" alt="main logo" style="width:15%"></a>
+      </div>
+      <a href="index.html">HOME</a>
+      <a href="news.html">NEWS</a>
+      <a href="interview.html">INTERVIEW</a>
+      <a href="essay.html">ESSAY</a>
+    </div>
+
+    <div class="mainpage">
+      <img src="dyson-ring.jpg" alt="dyson-ring" style="width:30%">
+      <div class="overlay"><a href="news.html">dyson ring</a></div>
+    </div>
+
+    <div class="grid">
+      <img src="rudeman.jpg" alt="rudemansavetheworld" style="height:350px">
+      <img src="gwang-ya.jpg" alt="gwang-ya" style="height:350px">
+    </div>
+
+    <div class="grid2">
+      <img src="포스터.jpg" alt="poster" style="height:350px">
+      <img src="cream.jpg" alt="poster" style="height:350px">
+    </div>
+  </body>
+</html>
